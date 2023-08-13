@@ -1,4 +1,4 @@
-# 3D Tetris WebGL
+# <img src="https://github.com/fini03/3D-Tetris-WebGL/blob/main/tetris-icon.png" width=30px> 3D Tetris WebGL
 
 This is a game developed for the course "GFX - Foundations of Computer Graphics" at the University of Vienna. The objectives of this task was to create a 3D tetris game to understand 3D transforms, 3D viewing pipelines, collision detection and try out WebGL. By default the VAO_CUBE is selected which means the tetraminos are cubes.
 
@@ -33,6 +33,7 @@ There is also a "cheating mode" which has been added to make testing easier. If 
 | <kbd>L</kbd>     | Rotate the camera cw on the Y-Axis around the center of the grid     |
 | <kbd>U</kbd>     | Rotate the camera ccw on the Z-Axis around the center of the grid    |
 | <kbd>O</kbd>     | Rotate the camera cw on the Z-Axis around the center of the grid     |
+<br/>
 
 #### 🖱️ Mouse Control
 | Movement              | Description                                                         |
@@ -41,7 +42,7 @@ There is also a "cheating mode" which has been added to make testing easier. If 
 | 🖱️→                   | Rotate the camera ccw on the Y-Axis around the center of the grid   |
 <br/>
 
-### <img src=""> Tetracubes
+## <img src="https://github.com/fini03/3D-Tetris-WebGL/blob/main/tetracube.png" width=30px> Tetracubes
 #### Movement
 | Key              | Description                               |
 |------------------|------------------------------------------ |
@@ -50,20 +51,23 @@ There is also a "cheating mode" which has been added to make testing easier. If 
 | <kbd>🡄</kbd>    | Move the cube in the negative X direction |
 | <kbd>🡆</kbd>    | Move the cube in the positive X direction |
 | <kbd>Space</kbd> | Let the cube drop down                    |
+<br/>
 
 #### 😵‍💫 Rotation
 | Key                           | Description                           	|
-|-------------------------------|------------------------------------------	|
+|-------------------------------|-----------------------------------------|
 | <kbd>X</kbd>                  | Rotate the cube ccw around the X-Axis 	|
 | <kbd>⇧</kbd> + <kbd>X</kbd> 	| Rotate the cube cw around the X-Axis  	|
 | <kbd>Y</kbd>                  | Rotate the cube ccw around the Y-Axis 	|
 | <kbd>⇧</kbd> + <kbd>Y</kbd>  	| Rotate the cube cw around the Y-Axis  	|
 | <kbd>Z</kbd>                  | Rotate the cube ccw around the Z-Axis 	|
 | <kbd>⇧</kbd> + <kbd>Z</kbd> 	| Rotate the cube cw around the Z-Axis  	|
+<br/>
 
 #### 🎭 Shapes
-> Please note: if you don't switch back to VAO_CUBE afterwards, you might need to press the key `n` twice to get to the VAO_AMONGUS mode
-| Key                           | Description                           	            |
+> Please note: if you don't switch back to tetracubes afterwards (pressing the same key), you might need to press the key `n` twice to switch to the among-us mode
+
+| Key                           | Description                           	              |
 |-------------------------------|------------------------------------------------------ |
-| <kbd>B</kbd>                  | Switch to rendering cylinder instead of tetracubes 	|
+| <kbd>B</kbd>                  | Switch to rendering cylinder instead of tetracubes 	  |
 | <kbd>N</kbd>                 	| Switch to rendering among-us instead of tetracubes  	|
